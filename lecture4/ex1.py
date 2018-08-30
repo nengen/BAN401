@@ -28,29 +28,19 @@ myData.insert(1,tempArray)
 i = 1
 while i<10:
     tempArray = []
-    tempArray.append(i)
+    tempArray.append(str(i))
     mysq = round(mySqrt(i),2)
     sq = round(sqrt(i))
-    diff = mysq - sq
-    str(mysq)
-    str(sq)
-    str(diff)
-    tempArray.append(mysq)
-    tempArray.append(sq)
-    tempArray.append(diff)
+    diff = round(mysq - sq,2)
+    tempArray.append(str(mysq))
+    tempArray.append(str(sq))
+    tempArray.append(str(diff))
     myData.insert(1+i, tempArray)
     i += 1
 
 
 
-#todo, fix output to look better
-max = len(myData[0])
-max2 = len (myData)
-string = []
 
-for a in range(0,max):
-    for b in range(0,max2):
-        if len(string) == max2:
-            string = []
-        string.append(myData[b][a])
-    print (string)
+col_width = max(len(word) for row in myData for word in row) + 2  # padding
+for row in myData:
+    print ("".join(word.ljust(col_width) for word in row))
