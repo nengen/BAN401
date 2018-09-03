@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb3be9a8-e34c-4fc5-9387-5b08a6284dee" name="Default Changelist" comment="">
+    <list default="true" id="097996e2-1a02-4f62-aca2-908099d8875b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/do_twice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/right_justify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lecture4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lecture4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,33 +16,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1923908402">
+    <session id="1727394898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1259" />
+          <entry key="py" value="1602" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1259" />
+          <entry key="Python" value="1602" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -45,30 +50,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fibonacci.py">
+        <entry file="file://$PROJECT_DIR$/right_justify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passwordEX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="42" />
+            <state>
+              <folding>
+                <marker date="1535970388056" expanded="true" signature="22:27" ph="..." />
+                <marker date="1535970388056" expanded="true" signature="23:27" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex1.py">
+        <entry file="file://$PROJECT_DIR$/grid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="708">
+              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
-                <element signature="e#15#34#0" expanded="true" />
+                <marker date="1535972861154" expanded="true" signature="16:21" ph="..." />
+                <marker date="1535972861154" expanded="true" signature="60:65" ph="..." />
+                <marker date="1535972861154" expanded="true" signature="105:110" ph="..." />
+                <marker date="1535972861154" expanded="true" signature="181:195" ph="..." />
+                <marker date="1535972861154" expanded="true" signature="314:318" ph="..." />
+                <marker date="1535972861154" expanded="true" signature="996:1001" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/do_twice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1535970388030" expanded="true" signature="29:34" ph="..." />
+                <marker date="1535970388030" expanded="true" signature="179:184" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,17 +106,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fibonacci.py" />
-        <option value="$PROJECT_DIR$/passwordEX.py" />
-        <option value="$PROJECT_DIR$/ex1.py" />
+        <option value="$PROJECT_DIR$/do_twice.py" />
+        <option value="$PROJECT_DIR$/right_justify.py" />
+        <option value="$PROJECT_DIR$/grid.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="854" />
-    <option name="y" value="12" />
+    <option name="x" value="636" />
+    <option name="y" value="27" />
     <option name="width" value="1072" />
-    <option name="height" value="1000" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,9 +140,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex1">
-    <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lecture4" />
+  <component name="RunManager" selected="Python.grid">
+    <configuration name="do_twice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lecture5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -136,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_twice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,8 +162,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lecture4" />
+    <configuration name="grid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lecture5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,8 +183,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="passwordEX" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lecture4" />
+    <configuration name="right_justify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lecture5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/passwordEX.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/right_justify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,15 +205,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fibonacci" />
-      <item itemvalue="Python.passwordEX" />
-      <item itemvalue="Python.ex1" />
+      <item itemvalue="Python.right_justify" />
+      <item itemvalue="Python.do_twice" />
+      <item itemvalue="Python.grid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex1" />
-        <item itemvalue="Python.passwordEX" />
-        <item itemvalue="Python.fibonacci" />
+        <item itemvalue="Python.grid" />
+        <item itemvalue="Python.do_twice" />
+        <item itemvalue="Python.right_justify" />
       </list>
     </recent_temporary>
   </component>
@@ -205,24 +222,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb3be9a8-e34c-4fc5-9387-5b08a6284dee" name="Default Changelist" comment="" />
-      <created>1535628746550</created>
+      <changelist id="097996e2-1a02-4f62-aca2-908099d8875b" name="Default Changelist" comment="" />
+      <created>1535969524156</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535628746550</updated>
+      <updated>1535969524156</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="12" width="1072" height="1000" extended-state="0" />
+    <frame x="636" y="27" width="1072" height="992" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24951644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,40 +256,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/right_justify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passwordEX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state>
           <folding>
-            <element signature="e#15#34#0" expanded="true" />
+            <marker date="1535970388056" expanded="true" signature="22:27" ph="..." />
+            <marker date="1535970388056" expanded="true" signature="23:27" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/do_twice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1535970388030" expanded="true" signature="29:34" ph="..." />
+            <marker date="1535970388030" expanded="true" signature="179:184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+          <folding>
+            <marker date="1535972861154" expanded="true" signature="16:21" ph="..." />
+            <marker date="1535972861154" expanded="true" signature="60:65" ph="..." />
+            <marker date="1535972861154" expanded="true" signature="105:110" ph="..." />
+            <marker date="1535972861154" expanded="true" signature="181:195" ph="..." />
+            <marker date="1535972861154" expanded="true" signature="314:318" ph="..." />
+            <marker date="1535972861154" expanded="true" signature="996:1001" ph="..." />
           </folding>
         </state>
       </provider>
