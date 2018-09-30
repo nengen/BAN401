@@ -4,7 +4,7 @@
 
 def tax():
     annual_income = input("Enter your annual income in numbers: ") #prompt user for inpit
-    tax = tax_calculator(int(annual_income)) #use the tax_calculator helper function to calculate the tax, we do this in a helper function for abstraction
+    tax = tax_calculator(int(annual_income)) #use the tax_calculator helper function to calculate the tax
     print("Your tax is: " + str(tax)) #cast tax to string and print it
     print("Your after tax income is: " + str(int(annual_income)-int(tax))) #calc after tax income and cast it to string
 

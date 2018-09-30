@@ -24,13 +24,13 @@ def calc_st_dev(observations):
     temp = 0
     mean = calc_mean(observations)
     for observation in observations: #loop throug list to find sum of (x-u)^2
-        temp += (observation-mean)**2
-    return sqrt( (1/len(observations)) * temp ) #returns standard deviation
+        temp += (observation-mean)**2 #this is the :(x-u)^2
+    return sqrt((1/len(observations)) * temp) #returns standard deviation
 
 def is_withing_three(stdev, mean, observation):
-    upperLimit = (mean+3*stdev)
-    lowerLimit = (mean-3*stdev)
-    if(observation >= lowerLimit and observation <= upperLimit ):
+    upperLimit = (mean+3*stdev) #set the upper limit
+    lowerLimit = (mean-3*stdev) #set the lower limit
+    if(observation >= lowerLimit and observation <= upperLimit ): #ifelse statement to print correct output
         return "is within the control limits"
     elif(observation>upperLimit):
         return "is above the upper control limit"

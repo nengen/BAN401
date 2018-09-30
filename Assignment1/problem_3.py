@@ -7,7 +7,8 @@ def print_x(n):
                 elif(j == n-1-i): #print last x in row, decremented by i each loop
                     print("#", end= '')
                 else:
-                    print(" ", end = '')
+                    print(" ", end = '') #print space
             print("") #print nothing so we get next line
 
+print_x(5)
 print_x(10)
