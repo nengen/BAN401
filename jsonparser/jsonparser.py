@@ -16,12 +16,14 @@ def sort_json(json):
     dict = {}
     dict.setdefault('key_name', []).append('value')
     for data in json:
-        data.pop('coord', None)
+        data.pop('coord', None)  # remove the coord part of the city.list.json
+        # get the prefix
         prefix = ""
         if len(data['name']) > 0:
             prefix = data['name'][0]
         else:
             prefix = ' '
+        # add the values to the correct prefix
         if dict.get(prefix):
             dict[prefix].append(data)
         else:
