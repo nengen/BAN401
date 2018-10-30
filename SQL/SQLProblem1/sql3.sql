@@ -1,0 +1,10 @@
+SELECT * FROM PRODUCTS WHERE STOCK < REORDERLEVEL
+
+SELECT CompanyName,COUNTRY FROM Suppliers WHERE COUNTRY == "Norway" OR COUNTRY == "Sweden" OR COUNTRY = "Denmark" OR  COUNTRY == "Finland"
+
+SELECT ProductName FROM PRODUCTS WHERE ProductName  LIKE "Women%" OR ProductName LIKE "%Gloves"
+
+DELETE FROM Suppliers WHERE SupplierID == 4
+
+DELETE FROM PRODUCTS WHERE SupplierID == 1
+DELETE FROM Suppliers WHERE SupplierID == 1

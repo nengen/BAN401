@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/Nengen/Desktop/NHH/BAN401/pythRSQL/SQL/SQLproblem1.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1787"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="PRODUCTS"/><default_encoding codec=""/><browsetable_info data="AAAAAwAAABIAUwB1AHAAcABsAGkAZQByAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAAEABQAFIATwBEAFUAQwBUAFMAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAAEABEAEEAVABBAEIAQQBTAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////"/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE Suppliers(
+	SupplierID INT NOT NULL,
+	CompanyName CHAR(50) NOT NULL,
+	StreetAddress CHAR(50) NOT NULL,
+	City CHAR(50) NOT NULL,
+	COUNTRY CHAR(50) NOT NULL,
+	PHONE INT NOT NULL,
+	PRIMARY KEY(SupplierID)
+)
+
+INSERT INTO Suppliers VALUES(1, &quot;SupplierA&quot;, &quot;Hatlevien&quot;, &quot;Bergen&quot;, &quot;Norway&quot;, 92121221),
+(2, &quot;SupplierB&quot;, &quot;Oyamazaki&quot;, &quot;kyoto&quot;, &quot;Japan&quot;, 93521221),
+(3, &quot;SupplierC&quot;, &quot;Herlev&quot;, &quot;Copenhagen&quot;, &quot;Denmark&quot;, 94521221),
+(4, &quot;SupplierD&quot;, &quot;Regeringsgatan 65&quot;, &quot;Stockholm&quot;, &quot;Sweden&quot;, 95521221),
+(5, &quot;SupplierE&quot;, &quot;Tianhe N Rd&quot;, &quot;Guangzhou&quot;, &quot;China&quot;, 96121221)
+
+
+
+
+
+
+
+
+</sql><sql name="SQL 2">CREATE TABLE 'PRODUCTS'(
+	ProductID INT PRIMARY KEY NOT NULL,
+	ProductName CHAR(50) NOT NULL,
+	SupplierID char(50) NOT NULL,
+	UNITPRICE REAL NOT NULL,
+	STOCK INT NOT NULL,
+	REORDERLEVEL INT NOT NULL,
+	FOREIGN KEY (SupplierID) REFERENCES SUPPLIERS (SupplierID)
+	
+	
+)
+
+
+
+INSERT INTO PRODUCTS VALUES
+(1, &quot;Men's Shoe&quot;, 1, 790.0, 5000, 4000),
+(2, &quot;Men's Gloves&quot;, 1, 150.0, 3000, 5000),
+(3, &quot;Women's Shoes&quot;, 3, 930.0, 2000, 3000),
+(4, &quot;Women's Gloves&quot;, 2, 200.5, 9000, 5500),
+(5, &quot;Child's Shoe&quot;, 5, 560.5, 8000, 4000)
+
+
+</sql><sql name="SQL 3">SELECT * FROM PRODUCTS WHERE STOCK &lt; REORDERLEVEL
+
+SELECT CompanyName,COUNTRY FROM Suppliers WHERE COUNTRY == &quot;Norway&quot; OR COUNTRY == &quot;Sweden&quot; OR COUNTRY = &quot;Denmark&quot; OR  COUNTRY == &quot;Finland&quot;
+
+SELECT ProductName FROM PRODUCTS WHERE ProductName  LIKE &quot;Women%&quot; OR ProductName LIKE &quot;%Gloves&quot;
+
+DELETE FROM Suppliers WHERE SupplierID == 4
+
+DELETE FROM PRODUCTS WHERE SupplierID == 1
+DELETE FROM Suppliers WHERE SupplierID == 1</sql><current_tab id="2"/></tab_sql></sqlb_project>

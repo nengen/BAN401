@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/Nengen/Downloads/songs.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1507"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="songs"/><default_encoding codec=""/><browsetable_info data="AAAAAA=="/></tab_browse><tab_sql><sql name="SQLCode.sql">CREATE TABLE STUDENTS(
+	STUDENTNUMBER INT PRIMARY KEY NOT NULL,
+	STUDENTNAME CHAR(50) NOT NULL,
+	STUDENTAGE INT NOT NULL
+)
+
+
+INSERT INTO STUDENTS VALUES
+(1,&quot;Nils-Erik&quot;, 21),
+(2,&quot;Olav&quot;, 22),
+(3,&quot;Zorab&quot;, 22),
+(4,&quot;Marcus&quot;, 23)
+
+SELECT * FROM STUDENTS WHERE STUDENTAGE&gt;21</sql><sql name="sqlCode.sql">CREATE TABLE OUTLETS(
+	OUTLET_ID INT PRIMARY KEY NOT NULL,
+	OUTLET_NAME CHAR(50) NOT NULL,
+	ORGANIZATIONAL_NUMBER INT NOT NULL,
+	ADRESS CHAR(50) NOT NULL,
+	CITY CHAR(50) NOT NULL,
+	ZIP_CODE INT NOT NULL
+)
+INSERT INTO OUTLETS VALUES
+(1,&quot;Oscars&quot;, 101054687, &quot;King Oscars&quot;, &quot;Bergen&quot;, 5018),
+(2,&quot;Beck&quot;, 548675839, &quot;Jebsen Street&quot;, &quot;Oslo&quot;, 3030)
+
+
+CREATE TABLE OUTLET_KEY_FIGURES(
+	OUTLET_ID INT PRIMARY KEY NOT NULL,
+	SALES INT NOT NULL,
+	COSTS INT NOT NULL,
+	FOREIGN KEY (OUTLET_ID) REFERENCES OUTLETS (OUTLET_ID)
+)
+
+INSERT INTO OUTLET_KEY_FIGURES VALUES
+(1,10000, 6000),
+(2,20000,10000)
+
+CREATE TABLE PRODUCTS(
+	PRODUCT_ID INT NOT NULL,
+	OUTLET_ID ID NOT NULL,
+	PRODUCT_CATEGORY INT PRIMARY KEY NOT NULL,
+	PRODUCT_NAME CHAR(50) NOT NULL,
+	PRODUCT_STOCK INT NOT NULL,
+	PRODUCT PRICE INT NOT NULL,
+	FOREIGN KEY (OUTLET_ID) REFERENCES OUTLETS (OUTLET_ID)
+)
+INSERT INTO PRODUCTS VALUES
+(1,1, &quot;A&quot;, &quot;Ivory&quot;, 0, 10000),
+(2,1, &quot;B&quot;, &quot;Green Beans&quot;, 10000, 0.99)
+
+</sql><sql name="SQLCode.sql">CREATE TABLE TREES(
+	TREE_ID INT PRIMARY KEY NOT NULL,
+	GIRTH REAL NOT NULL,
+	HEIGHT INT NOT NULL,
+	VOLUME REAL NOT NULL
+)
+
+INSERT INTO TREES VALUES
+(1,8.3,70,10.3),
+(2,8.6,65,10.3),
+(3,8.8,63,10.2),
+(4,10.5,72,16.4)
+
+SELECT * FROM TREES WHERE GIRTH &gt; 10 AND VOLUME &lt; 20</sql><sql name="SQLCode.sql">CREATE TABLE STUDENT(
+	STUDENT_ID INT PRIMARY KEY NOT NULL,
+	FIRST_NAME CHAR(50) NOT NULL,
+	LAST_NAME CHAR(50) NOT NULL,
+	EMAIL CHAR(50) NOT NULL,
+	SEMESTER_TERM INT NOT NULL,
+	MAJOR_FIELD CHAR(50) NOT NULL
+)
+
+CREATE TABLE COURSE(
+	COURSE_ID INT PRIMARI KEY NOT NULL,
+	COURSE_NAME CHAR(50) NOT NULL,
+	COURSE_TERM INT NOT NULL,
+	STUDENT_ID INT NOT NULL,
+	FOREIGN KEY (STUDENT_ID) REFERENCES STUDENT(STUDENT_ID)
+)
+
+--1:N RELATIONSHIP, ONE STUDENT CAN TAKE MANY COURSES BUT EACH COURSE CAN ONLY HAVE INSTANCE OF THE STUDENT</sql><sql name="SQL 1"></sql><current_tab id="4"/></tab_sql></sqlb_project>
