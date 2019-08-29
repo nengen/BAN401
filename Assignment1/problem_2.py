@@ -22,7 +22,7 @@ def tax_calculator(income):
     elif(income <= taxClass2):
         return (income-taxClass2) * 0.1
     elif(income <= taxClass3):
-        return (income-taxClass2) * 0.2+(taxClass2-taxClass1) * 0.1
+        return (income-taxClass3) * 0.2+(taxClass2-taxClass1) * 0.1
     elif(income <= taxClass4):
         return (income-taxClass3) * 0.3 + (taxClass3 - taxClass2) * 0.2 + (taxClass2-taxClass1) * 0.1
     elif(income >= taxClass4):
